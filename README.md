@@ -1,11 +1,11 @@
 ![Dropify](src/images/cover.jpg)
 
-Dropify
-=========
+Dropify Multiple
+================
 
-Override your input files with style.
+Multiple file upload based on Dropify. Override your input files with style. 
 
-Demo here : [http://jeremyfagis.github.io/dropify](http://jeremyfagis.github.io/dropify/)
+Demo of original dropify here : [http://jeremyfagis.github.io/dropify](http://jeremyfagis.github.io/dropify/)
 
 
 ## Dependency
@@ -17,8 +17,8 @@ Demo here : [http://jeremyfagis.github.io/dropify](http://jeremyfagis.github.io/
 
 Clone the project in your workspace
 
-	$ git clone git@github.com:JeremyFagis/dropify.git
-	$ cd dropify
+	$ git clone git@github.com:brewengage/dropify-multiple.git
+	$ cd dropify-multiple
 
 Download packages
 
@@ -43,21 +43,14 @@ Compile assets
 	# Prod compilation, you will have only minified files
 	$ gulp build --dev
 
-
-## NPM Package
-
-[www.npmjs.com/package/dropify](https://www.npmjs.com/package/dropify)
-
-    $ npm install dropify
-
 ## Bower Package
 
-    $ bower install dropify
+    $ bower install dropify-multiple
 
 
 ## Usage
 
-You have to include __[dist/js/dropify.js](dist/js/dropify.js)__, __[dist/css/dropify.css](dist/css/dropify.css)__ and __dist/fonts/*__ to your project, then you just have to init the jQuery plugin like that :
+You have to include __[dist/js/dropify-multiple.js](dist/js/dropify-multiple.js)__, __[dist/css/dropify.css](dist/css/dropify.css)__ and __dist/fonts/*__ to your project, then you just have to init the jQuery plugin like that :
 
 ```javascript
 $('.dropify').dropify();
