@@ -1,6 +1,6 @@
 {
-  "name": "dropify",
-  "title": "Dropify",
+  "name": "dropify-multiple",
+  "title": "Dropify-multiple",
   "description": "Override your input files with style",
   "keywords": [
     "upload",
@@ -10,16 +10,14 @@
     "drop",
     "jquery"
   ],
-  "homepage": "http://jeremyfagis.github.io/dropify/",
+  "homepage": "https://github.com/brewengage/dropify-multiple/",
   "author": {
-    "name": "Jeremy Fagis",
-    "url": "http://www.fagis.fr/"
+    "name": "Ravi Kannan"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/JeremyFagis/dropify.git"
+    "url": "https://github.com/brewengage/dropify-multiple.git"
   },
-  "bugs": "https://github.com/JeremyFagis/dropify/issues",
   "dependencies": {
     "jquery": ">=1.8"
   },
