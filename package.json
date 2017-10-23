@@ -1,0 +1,39 @@
+{
+  "name": "dropify-multiple",
+  "description": "Override your input files with style. Supports mulitple file upload",
+  "version": "1.0.0",
+  "homepage": "http://github.com/brewengage/dropify-multiple",
+  "author": "Ravi Kannan <ravi@brewengage.com> (https://github.com/brewengage)",
+  "contributors": [
+    "Jeremy FAGIS <jeremy@fagis.fr> (http://fagis.fr)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/brewengage/dropify-multiple"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "license": "MIT",
+  "main": "dest/js/dropify-multiple.js",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-header": "^1.7.1",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "gulp-umd": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-wrap-js": "^0.4.1",
+    "minimist": "^1.2.0"
+  }
+}
