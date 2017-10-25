@@ -1,7 +1,7 @@
 {
   "name": "dropify-multiple",
   "description": "Override your input files with style. Supports mulitple file upload",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "homepage": "http://github.com/brewengage/dropify-multiple",
   "author": "Ravi Kannan <ravi@brewengage.com> (https://github.com/brewengage)",
   "contributors": [
