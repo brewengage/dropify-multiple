@@ -31,6 +31,12 @@ var jsDir     = 'src/js/',
                     param: '$'
                 }
             ];
+        },
+        exports: function(file) {
+            return 'DropifyMultiple';
+        },
+        namespace: function(file) {
+            return 'DropifyMultiple';
         }
     };
 

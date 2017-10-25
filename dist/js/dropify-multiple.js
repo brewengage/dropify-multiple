@@ -14,7 +14,7 @@
   } else if (typeof exports === 'object') {
     module.exports = factory(require('jquery'));
   } else {
-    root.Dropify-multiple = factory(root.jQuery);
+    root.DropifyMultiple = factory(root.jQuery);
   }
 }(this, function($) {
 var pluginName = "DropifyMultiple";
@@ -729,5 +729,5 @@ $.fn[pluginName] = function(options) {
     return this;
 };
 
-return Dropify-multiple;
+return DropifyMultiple;
 }));
